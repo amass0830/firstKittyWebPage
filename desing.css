@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+/*Lets start to styly*/
+
+/*Seccion styling Header one*/
+h1 {
+font-weight: 200;
+font-size: 60px; 
+color: whitesmoke;
+text-decoration-line: inherit; 
+border-top: 10px dotted burlywood;
+border-bottom: 10px dotted burlywood;
+font-size: 70px;
+text-align: center;
+}
+
+/*Seccion styling body, imagen*/
+body {
+    background-color: #aa4069;
+    color:wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-transform:uppercase; 
+    align-items: center;
+}
+img {
+    height: 400px;
+    border-style: dotted;
+    border-radius: 10%;
+}
+
+/*Se nombro con un #kittykat la seccion que fue identificada previamente y se puso un style*/
+#kittykat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/*Seccion styling del  primer boton*/
+#first {
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color: #aa4069;
+    font-size: 15px;
+    text-align: center;
+    border: 2px dotted whitesmoke;
+    text-transform: uppercase;
+    text-decoration-color: teal;
+    outline: none; 
+}
+/*Dise;o escondido del boton cuando este se clica*/
+button:hover {
+    transition: 1s;
+    background-color: black;
+    color: #aa4069;
+    text-decoration: underline;
+    
+}
+/*Seccion styling del segundo boton*/
+#Second {
+    margin: 30px auto0 0;
+    padding: 18x 21px;
+    background-color: #d49bb1;
+    font-size: 15px;
+    text-align:end;
+    border: 2px dotted black;
+    text-transform: uppercase;
+    text-decoration-color: teal;
+    outline: none; 
+}
+/*Dise;o escondido del boton cuando este se clica*/
+button:hover {
+    transition: 1s;
+    background-color: black;
+    color: #aa4069;
+    text-decoration: underline;
+    
+}
+/*Seccion del parrafo, styling*/
+p { 
+    font-size: 20px;
+    text-align: center;
+    text-decoration: inherit;
+    text-shadow: grey;
+    text-transform: uppercase;
+}
